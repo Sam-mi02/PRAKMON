@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
@@ -21,7 +22,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <img src=" https://play-lh.googleusercontent.com/uwy2dwbUcOM7o8eFLVgIxlGd0j-1npAALDGyCwnwyU6gRgRwQFzDt3V7Q4gb0dNeMNLY=w240-h480-rw" width="30" height="30" class="d-inline-block align-top" alt="">
+                    <img src="{{ asset('assets/LOGO.png') }}" width="35" height="35" class="d-inline-block align-top" alt="">
                     {{ config('app.name', 'Laravel') }}
                 </a>
                 
